@@ -1,0 +1,60 @@
+# Python
+*.py[cod]
+*$py.class
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual Environment
+myenv/
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# AWS Credentials
+.aws/
+credentials
+config
+
+# Databricks
+.databrickscfg
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Large data files (optional - uncomment if needed)
+# *.zip
+# *.csv
+# *.parquet
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
